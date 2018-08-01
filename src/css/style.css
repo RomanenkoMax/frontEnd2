@@ -1,0 +1,156 @@
+.container {
+    margin: 0 auto;
+    width: 1280px;
+}
+.logo {
+    margin: 60px 0 45px;
+    font-family: "Myriad Pro", sans-serif;
+
+    font-size: 80px;
+    font-weight: 400;
+}
+.logo span {
+    color: black;
+}
+.logo a {
+    margin: 0;
+    text-decoration: none;
+    color:  #4bcaff;
+}
+.top-menu {
+    background-color: #35444f;
+    margin: 0;
+    text-align: center;
+}
+.top-menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+.top-menu ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.top-menu a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 25px 25px 20px;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    border: #35444f solid 1px;
+}
+.top-menu a:hover {
+    border-left: #ffffff solid 1px;
+    border-right: #ffffff solid 1px;
+    background-color: #222f3a;
+}
+.item {
+    margin-top: 50px;
+}
+.item-menu {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.item-menu ul {
+    padding: 0;
+    margin: 0;
+    border: black solid 1px;
+}
+.item-menu li {
+    list-style-type: none;
+}
+.item-menu a {
+    display: block;
+    font-family: 'Myriad Pro', sans-serif;
+    color:  #495863;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 80px;
+    text-align: left;
+    text-decoration: none;
+    padding: 0 100px 0 25px;
+}
+.item-menu a:hover {
+    font-family: 'Myriad Pro', sans-serif;
+    color:  #000000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 80px;
+    text-align: left;
+    background-color: #dcdcdc;
+    padding: 0 70px 0 55px;
+}
+.item-photo {
+    width: 70%;
+    float: right;
+}
+.item-img {
+    border: black solid 1px;
+    overflow: hidden;
+}
+.item-photo img {
+    padding: 75px 250px;
+    transition: all 1.5s ease-out;
+}
+.item-photo img:hover {
+    transform: scale(1.2);
+}
+.item-text {
+    margin-top: 50px;
+}
+.item-photo p {
+    margin: 0 30px;
+    font-family: 'Myriad Pro', sans-serif;
+    color:  #2c2b2b;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.footer-menu {
+    background-color: #b5b8bb;
+    margin: 0;
+    text-align: left;
+}
+.footer-menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+.footer-menu ul {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+.footer-menu a {
+    display: block;
+    color: #0c1927;
+    text-decoration: none;
+    padding: 25px 25px 20px;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.footer-menu a:hover {
+    color: #3181a6;
+    text-decoration: underline;
+}
+.footer-menu span {
+    font-family: 'Myriad Pro', sans-serif;
+    color:  #010000;
+    font-size: 24px;
+    font-weight: 400;
+}
+.copy {
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 120px;
+}
